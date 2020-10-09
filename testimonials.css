@@ -43,17 +43,36 @@ header * {
 }
 
 header h2 {
-  font-weight: 400;
+  /* font-weight: 600; */
   font-size: 1.05rem;
 }
 .carousel {
   width: 98vw;
+  position: relative;
 }
 .carousel-img {
   margin: auto;
-  width: 90%;
+  width: 85vw;
   height: 40vh;
   max-height: 300px;
+  border-radius: 15px;
+}
+
+.carousel .fa {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.fa-chevron-left {
+  left: 0;
+}
+
+.fa-chevron-right {
+  right: 0;
 }
 
 /* card container */
