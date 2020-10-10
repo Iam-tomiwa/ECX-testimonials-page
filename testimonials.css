@@ -4,7 +4,7 @@
   --overlay: rgba(0, 14, 45, 0.63);
   --red: #fe403b;
   --black: #000000;
-  --font: #c4c4c4;
+  --font: #808080;
   --bg: #fffdfd;
   --twitter-shadow: 1px 1px 3px #00a6ff5d;
   --student-shadow: -1px 1px 3px #fe413b5b;
@@ -16,13 +16,18 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  /* font-size: 14px; */
   background-color: var(--bg);
 }
 
 h1,
 h2 {
   padding: 1rem 0;
+}
+
+.grey {
+  color: var(--font);
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 /* header section */
 header {
