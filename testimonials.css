@@ -6,8 +6,8 @@
   --black: #000000;
   --font: #c4c4c4;
   --bg: #fffdfd;
-  --student-shadow: 2px 4px 4px #00a6ff5d;
-  --twitter-shadow: -1px 1px 3px #fe413b5b;
+  --twitter-shadow: 1px 1px 3px #00a6ff5d;
+  --student-shadow: -1px 1px 3px #fe413b5b;
 }
 * {
   margin: 0;
@@ -46,33 +46,18 @@ header h2 {
   /* font-weight: 600; */
   font-size: 1.05rem;
 }
-.carousel {
-  width: 98vw;
-  position: relative;
-}
-.carousel-img {
-  margin: auto;
-  width: 85vw;
-  height: 40vh;
-  max-height: 300px;
+.carousel-wrapper {
+  width: 90%;
   border-radius: 15px;
 }
-
-.carousel .fa {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 1rem;
-  font-size: 1.7rem;
-  cursor: pointer;
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  height: 75%;
+  /* z-index: 1; */
 }
-
-.fa-chevron-left {
-  left: 0;
-}
-
-.fa-chevron-right {
-  right: 0;
+.carousel-item {
+  transition: 1s ease;
 }
 
 /* card container */
